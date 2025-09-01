@@ -19,17 +19,19 @@
       margin-bottom: 20px;
     }
 
-    .video-container {
-      position: relative;
-      width: 100%;
-      max-width: 800px;
-      margin: 0 auto 20px auto;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
-      height: 0;
-    }
+   .video-container {
+  max-width: 800px;
+  margin: 20px auto;   /* space outside the video */
+}
 
-    .video-container iframe,
-    .video-container video {
+video {
+  width: 100%;
+  height: auto;
+  display: block;      /* removes extra whitespace */
+  margin: 0 auto;      /* centers */
+}
+
+    .video-container iframe{
       position: absolute;
       top: 0;
       left: 0;
