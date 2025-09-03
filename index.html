@@ -31,7 +31,32 @@
       width: 180px;   /* adjust size */
       height: auto;
     }
-    
+     /* Navigation buttons */
+    .nav {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      display: inline-block;
+      padding: 12px 24px;
+      font-size: 1.2em;
+      font-weight: bold;
+      color: white;
+      background: linear-gradient(45deg, #ff416c, #ff4b2b);
+      border-radius: 30px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .nav a:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+    }
     
     h1 {
       margin-top: 0%;
@@ -97,10 +122,12 @@
   <img src="WhatsApp Image 2025-09-02 at 19.42.47.jpeg" alt="Right Logo" class="logo-right">
   <h2 class="h2t">Welcome to </h2>
   <h1 style="white-space: nowrap;">Never-Too-Late.rocks</h1>
+  <div class="nav">
   <h2>Cover Rock vom Feinsten</h2>
   <h3><a href="setlist.html">View the Setlist</a></h3>
   <h3><a href="photos.html">See our photo gallery</a></h3>
   <h3><a href="video.html">See our videos</a></h3>
+  </div>
   <h2>Frank, FrankE, Markus and Andy will rock your World</h2>
   <h3>How to contact us:</h1>
   <p>
